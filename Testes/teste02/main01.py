@@ -1,0 +1,6 @@
+a = float(input("Digite o valor do produto: R$"))
+b = int(input("Digite o desconto dado pela loja: "))
+desconto = a - (a * b / 100)
+print("O valor do produto é de {}".format(a))
+print("O desconto foi de {}%".format(b))
+print("No fim das contas o produto fico por {}".format(desconto))
